@@ -33,9 +33,7 @@ module Int2Eng
   }.freeze
 
   def self.convert(convert_int)
-    result = get_number_letter(convert_int.to_s)
-    puts convert_int
-    result
+    get_number_letter(convert_int.to_s)
   end
 
   def self.get_number_letter(num)
