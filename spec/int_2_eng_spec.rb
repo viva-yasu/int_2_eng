@@ -5,7 +5,7 @@ describe Int2Eng do
     expect(Int2Eng::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'convert Int to Eng' do
+    expect(Int2Eng.convert(120)).to eq('one hundred and twenty')
   end
 end
